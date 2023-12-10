@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 14px;
+}
+
+.calendar-area {
+  margin: 40px 10px;
+  padding: 0;
+}
+
+#calendar,
+.calendar-area-header {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.modal-opened {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+  opacity: 0;
+  margin-top: -40px;
+}
+
+.modal {
+  position: fixed;
+  width: 500px;
+  margin-left: calc(50% - 250px);
+  margin-top: 200px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  z-index: 99;
+  box-shadow: 7px 6px 30px 0px rgba(0, 0, 0, 0.4);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-close {
+  cursor: pointer;
+  color: red;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.modal-body label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  margin: 5px 0;
+}
+
+.modal-body input {
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.modal-body input[type="color"] {
+  width: 50px;
+  height: 50px;
+}
+
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal-footer button {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgb(109, 160, 255);
+  border: 1px solid rgb(109, 160, 255);
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-footer button:hover {
+  background-color: rgb(109, 180, 255);
+}
+
+.btn-delete {
+  background-color: rgb(255, 100, 100) !important;
+  border: 1px solid rgb(255, 100, 100) !important;
+}
+
+.btn-delete:hover {
+  background-color: rgb(255, 120, 100) !important;
+  border: 1px solid rgb(255, 120, 100) !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.alert-danger {
+  background-color: lightcoral;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.alert-success {
+  background-color: green;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
