@@ -20,7 +20,7 @@ OBS: Qualquer dúvida deixe um comentário no meu canal do Youtube Carlos Wagner
 - Github Sponsor https://github.com/sponsors/cwrsiqueira
 
 ## Código do vídeo do youtube 
-[- [https://youtube.com/shorts/nCBmD2SnIxA](https://youtu.be/eVeYWkm7q_s)](https://youtu.be/jFcDqLyUfPQ)
+- https://youtu.be/jFcDqLyUfPQ
 
 Não esqueça de deixar seu Like, é muito importante pra um canal que está começando, e me motiva a compartilhar mais conteúdos gratuitos e de qualidade. 
 
